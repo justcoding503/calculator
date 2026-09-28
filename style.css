@@ -1,0 +1,56 @@
+#container{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+}
+#user{
+    width: 300px;
+    height: 85px;
+    background-color: rgb(87, 86, 86);
+}
+#output{
+    width: 300px;
+    height: 60px;
+    background-color: rgb(86, 85, 85);
+    text-align: right;
+    font-weight: 900;
+    color: aliceblue;
+    font-size: 30px;
+}
+#numbers{
+    width: 300px;
+    height: 355px;
+    background-color: rgb(37, 37, 37);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    height: 60px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 90px;
+    align-items: baseline;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    margin: 20px 25px;
+    font-weight: 900;
+}
+.row1{
+    background-color: orange;
+}
+.row4{
+    background-color: brown;
+}
+.row2{
+    background-color: grey;
+}
+.btn:hover{
+    background-color: rgb(185, 177, 177);
+}
